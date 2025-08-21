@@ -1,0 +1,60 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    /*Altura da janela do meu dispositivo*/
+    background-color: rgb(0, 255, 247);
+    display: flex;
+    align-items: center;
+    /*alinha no sentido ao contrario do flex*/
+    justify-content: center;
+    /*alinha no sentindo do flex*/
+}
+
+main>div {
+    background-color: blueviolet;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*  formulário */
+#formulario {
+    height: 300px;
+    /* background-color: brown; */
+}
+
+.estilo-formulario {
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color: var(--cor-branco);
+}
+
+#secao-cadastro {
+
+    height: 100px;
+    /* background-color: bisque; */
+}
+
+.informacao-aplicativo {
+    background-color: chocolate;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 400;
+}
+
+#secao-intalacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#secao-instalacao img {
+    width: 133px;
+    height: 39px;
+}

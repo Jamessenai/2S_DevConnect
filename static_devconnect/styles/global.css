@@ -1,0 +1,47 @@
+:root{
+    --cor-preto: #000000;
+    --cor-laranja: #FF7F11;
+    --cor-branco: #FFFFFC;
+    --cor-vermelho-escuro: #9A2E0A;
+    --cor-bege: #BEB7A4;
+
+    --borda: 1px solid var(--cor-cinza-medio);
+    --borda-arredondada: 2px;
+    
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+@font-face{
+    font-family: Billabong;
+    src: url(../fonts/Billabong/billabong.ttf), 
+    url(../fonts/Billabong/billabong_regular.otf);
+}
+
+*{
+    font-family: "Billabong", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/* o valor total do tamanho do elemento
+    conta tanto com espaço interno/externo e as bordas*/
+}
+
+body{
+    background-color: var(--cor-cinza-claro);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* formualrio */
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-branco);
+}
