@@ -4,8 +4,10 @@
     --cor-branco: #FFFFFC;
     --cor-vermelho-escuro: #9A2E0A;
     --cor-bege: #BEB7A4;
+    --cor-cinza: #999;
+    --cor-cinza1: #7d7d7d;
 
-    --borda: 1px solid var(--cor-cinza-medio);
+    --borda: 1px solid var(--cor-cinza);
     --borda-arredondada: 2px;
     
     --tamanho-fonte-lg: 20px;
@@ -21,7 +23,6 @@
 }
 
 *{
-    font-family: "Billabong", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;/* o valor total do tamanho do elemento
@@ -29,7 +30,7 @@
 }
 
 body{
-    background-color: var(--cor-cinza-claro);
+    background-color: var(--cor-branco);
 }
 
 h1{
@@ -44,4 +45,15 @@ input{
     height: 35px;
     border: var(--borda);
     background-color: var(--cor-branco);
+}
+
+.formulario-botao-azul{
+    background-color: var(--cor-laranja);
+    border-radius: var(--borda-arredondada);
+    border: none; /* removendo a borda */
+    height: 35px;
+
+    color: var(--cor-branco);
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 600;
 }
